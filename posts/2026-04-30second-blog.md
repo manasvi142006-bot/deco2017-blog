@@ -26,14 +26,14 @@ The answer is to keep the coordinates in percentages not pixels. When the user c
 
 - MojoJS templates — render each pin using stored x and y values as inline CSS percentage positioning on the canvas wrapper.
 
-![DDD diagram](../assets/ddd-diagram.png)
+![DDD diagram](/deco2017-blog/assets/ddd-diagram.png)
 
 # Schema decisions and why
 
 annotations.artwork_id → artworks.id [FOREIGN KEY]
 user_id in both → BlaBla Corp session cookie (no local users table)
 
-![ERD diagram](../assets/erd-diagram.png)
+![ERD diagram](/deco2017-blog/assets/erd-diagram.png)
 
 - The category is automatically set to 'general' because making people choose a category every time they make an annotation would be annoying. The critique should be easy to do. If we have a default then people can use the feature without having to make a choice every time.
 

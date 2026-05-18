@@ -50,6 +50,6 @@ At this stage we are still exploring whether this is actually buildable. The bri
 
 The brief also sets out minimum standards that will shape every decision from here: AA accessibility compliance, EU cookie policy, responsive design for desktop and mobile, and load times under 3 seconds. A click-based spatial interaction raises real accessibility questions — what happens for users who cannot use a mouse? We have not worked that out yet, and it might turn out to be a significant constraint on how the feature can be designed. These are the questions we are taking into next week.
 
-![Login wireframe](../assets/wireframe-login.png)
+![Login wireframe](/deco2017-blog/assets/wireframe-login.png)
 
-![Gallery wireframe](../assets/wireframe-gallery.png)
+![Gallery wireframe](/deco2017-blog/assets/wireframe-gallery.png)

@@ -12,9 +12,9 @@ This week we focused on building out all the pages,the gallery, upload form, det
 
 ### Sitemap
 
-![Sitemap](../assets/sitemap.png)
-![User flow](../assets/userflow-diagram.png)
-![Accessibility user flow](../assets/userflow-accessibility.png)
+![Sitemap](/deco2017-blog/assets/sitemap.png)
+![User flow](/deco2017-blog/assets/userflow-diagram.png)
+![Accessibility user flow](/deco2017-blog/assets/userflow-accessibility.png)
 
 
 Each page links to a requirement directly. Nothing is there just for the sake of it. Our community’s space is the gallery. The main function is on the detail page. You can contribute via Upload. The dashboard allows artists to see how their work is resonating.
@@ -39,6 +39,6 @@ Dark UI,warm off-white text,terracotta pins.The dark theme is a practical choice
 
 One thing I did not anticipate: the sidebar needed to scroll independently while the image stayed fixed.This only became obvious when I loaded in a lot of dummy annotations.Catching it before the backend was built made it a quick CSS fix. If I had found it after integration it would have been a much bigger problem to untangle.
 
-![Detail page wireframe](../assets/wireframe-detail.png)
-![My Artworks wireframe](../assets/wireframe-mine.png)
-![Upload wireframe](../assets/wireframe-upload.png)
+![Detail page wireframe](/deco2017-blog/assets/wireframe-detail.png)
+![My Artworks wireframe](/deco2017-blog/assets/wireframe-mine.png)
+![Upload wireframe](/deco2017-blog/assets/wireframe-upload.png)
