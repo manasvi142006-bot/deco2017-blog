@@ -344,4 +344,17 @@ code {
   color: #a4a4a8;
   font-family: monospace;
   margin-bottom: 2rem;
+}/* Make entire card clickable feel */
+li {
+  cursor: pointer;
+}
+
+li a::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+}
+
+li {
+  position: relative;
 }
