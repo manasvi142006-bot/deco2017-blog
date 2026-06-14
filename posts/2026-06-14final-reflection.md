@@ -48,13 +48,13 @@ Two metrics came back genuinely strong though. Total Blocking Time was 0ms on bo
 | Reduce unused JavaScript | 42 KiB |
 | Minify CSS | 17 KiB |
 
-![Lighthouse desktop scores](../assets/lighthouse-desktop.png)
+![Lighthouse desktop scores](/deco2017-blog/assets/lighthouse-desktop.png)
 *Lighthouse desktop audit — /artwork page. Performance 67, Accessibility 96, Best Practices 96, SEO 100*
 
-![Core Web Vitals](../assets/core-web-vitals.png)
+![Core Web Vitals](/deco2017-blog/assets/core-web-vitals.png)
 *Core Web Vitals — LCP 14.1s flagged red. TBT 0ms and CLS 0.003 green*
 
-![lighthouse mobile](../assets/lighthouse-mobile.png)
+![lighthouse mobile](/deco2017-blog/assets/lighthouse-mobile.png)
 Lighthouse mobile audit — /artwork/mine. Performance 74, LCP 13.1s, TBT 0ms, CLS 0.001*
 
 
@@ -71,7 +71,7 @@ Keyboard navigation testing showed strong results across most of the application
 Peer usability testing surfaced something neither tool could catch. When we asked them to leave an annotation, the first instinct was to look for a button. There is no affordance label, nothing that says "click anywhere to annotate." The tester spent about fifteen seconds before trying a click. But once discovered, everything worked as intended. Discoverability is the failure, not the feature. Collab Roulette page has the same structural problem: the interests panel and spin wheel sit on the same page with equal visual weight, requiring scroll to find the primary action with no signal about which step comes first.
 
 
-![Lighthouse accesibility scores](../assets/lighthouse-accessibility.png)
+![Lighthouse accesibility scores](/deco2017-blog/assets/lighthouse-accessibility.png)
 *Lighthouse accessibility — 96/100. Contrast ratio failure flagged. 10 items require manual review*
 
 
@@ -83,10 +83,10 @@ Peer usability testing surfaced something neither tool could catch. When we aske
 | My Artworks (`/artwork/mine`) | 0 | 4 | 1 | 7.3/10 |
 | Collab Roulette (`/collab`) | 0 | 4 | 1 | 7.9/10 |
 
-![wave-artworks](../assets/wave-artworks.png)
+![wave-artworks](/deco2017-blog/assets/wave-artworks.png)
 *WAVE — My Artworks. 0 errors, 4 contrast errors, AIM 7.3/10*
 
-![wave-roullete](../assets/wave-roullete.png)
+![wave-roullete](/deco2017-blog/assets/wave-roullete.png)
 *WAVE — Collab Roulette. 0 errors, 4 contrast errors, AIM 7.9/10*
 
 ## WebAIM Contrast Checker Results
@@ -98,10 +98,10 @@ Peer usability testing surfaced something neither tool could catch. When we aske
 | `#a4a4a8` on `#0f1117` | 7.59:1 | ✅ Pass | Footer, page-level text |
 
 
-![contrast muted pass](../assets/contrast-muted-pass.png)
+![contrast muted pass](/deco2017-blog/assets/contrast-muted-pass.png)
 *WebAIM — #a4a4a8 on #161b27. Ratio 6.92:1 — passes WCAG AA. Muted text was not the source of failures*
 
-![contrast orange fail](../assets/contrast-orange-fail.png)
+![contrast orange fail](/deco2017-blog/assets/contrast-orange-fail.png)
 *WebAIM — #ffffff on #ff6b35. Ratio 2.83:1 — fails WCAG AA for normal text, large text, and UI components*
 
 
