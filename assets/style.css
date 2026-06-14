@@ -135,4 +135,213 @@ code {
   border-radius: 4px;
   font-size: 0.88rem;
   color: #c44a1a;
+}/* ============================================================
+   BLOG HOMEPAGE — Professional redesign
+   ============================================================ */
+
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background: #0f1117;
+  color: #f0ece4;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main blog heading */
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding: 3rem 4rem 1rem;
+  color: #f0ece4;
+  border-bottom: 2px solid #ff6b35;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Post list container */
+ul {
+  list-style: none;
+  padding: 2rem 4rem;
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+/* Each post card */
+li {
+  background: #161b27;
+  border: 1px solid #1f2538;
+  border-radius: 12px;
+  padding: 1.5rem 2rem;
+  transition: all 0.2s ease;
+  border-left: 3px solid #ff6b35;
+}
+
+li:hover {
+  border-color: #ff6b35;
+  box-shadow: 0 8px 24px rgb(255 107 53 / 15%);
+  transform: translateY(-2px);
+}
+
+/* Post title link */
+li a {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #f0ece4;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+li a:hover {
+  color: #ff6b35;
+}
+
+/* Post meta — date and author */
+li p:first-of-type {
+  font-size: 0.78rem;
+  color: #a4a4a8;
+  font-family: monospace;
+  margin-bottom: 0.5rem;
+}
+
+/* Post summary */
+li p:last-of-type {
+  font-size: 0.9rem;
+  color: #d2d2d6;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* ============================================================
+   BLOG POST PAGE
+   ============================================================ */
+
+article {
+  max-width: 750px;
+  margin: 3rem auto;
+  padding: 0 2rem;
+  line-height: 1.8;
+  font-size: 1.05rem;
+}
+
+article h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #f0ece4;
+  border-bottom: 2px solid #ff6b35;
+  padding-bottom: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+article h2 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #f0ece4;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #1f2538;
+}
+
+article p {
+  color: #d2d2d6;
+  margin-bottom: 1.25rem;
+}
+
+article img {
+  max-width: 650px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.5rem auto;
+  border-radius: 8px;
+  border: 1px solid #1f2538;
+}
+
+article img + em {
+  display: block;
+  text-align: center;
+  font-size: 0.82rem;
+  color: #a4a4a8;
+  margin-top: 0.4rem;
+  margin-bottom: 1.5rem;
+  font-style: italic;
+}
+
+article a {
+  color: #ff6b35;
+  text-decoration: none;
+}
+
+article a:hover {
+  text-decoration: underline;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.88rem;
+  border: 1px solid #1f2538;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th {
+  background: #161b27;
+  color: #ff6b35;
+  padding: 0.75rem 1rem;
+  text-align: left;
+  font-family: monospace;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid #1f2538;
+}
+
+td {
+  padding: 0.65rem 1rem;
+  border-bottom: 1px solid #1f2538;
+  color: #d2d2d6;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+tr:hover td {
+  background: #1e2436;
+}
+
+/* Blockquotes */
+blockquote {
+  border-left: 3px solid #ff6b35;
+  margin: 1.5rem 0;
+  padding: 0.75rem 1.25rem;
+  background: #161b27;
+  color: #a4a4a8;
+  font-style: italic;
+  border-radius: 0 8px 8px 0;
+}
+
+/* Inline code */
+code {
+  background: #161b27;
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  color: #ff6b35;
+  font-family: monospace;
+}
+
+/* Post meta on post page */
+.post-meta {
+  font-size: 0.78rem;
+  color: #a4a4a8;
+  font-family: monospace;
+  margin-bottom: 2rem;
 }
